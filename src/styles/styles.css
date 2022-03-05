@@ -1,0 +1,862 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+html{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    background: #fff;
+    color: #000;
+}
+
+
+body
+{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+}
+
+main
+{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    min-height: 15.2rem;
+}
+
+footer
+{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0.5rem 0 0 0 ;
+    background-color: #859CB7;
+    color: #000;
+}
+
+@media (min-width: 1024px)
+{
+    footer
+    {
+        margin: 2rem 0 0 0;
+    }
+}
+
+p
+{
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1024px)
+{
+    p
+    {
+        margin-bottom: 3rem;
+    }
+}
+
+a
+{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+}
+
+.strong
+{
+    font-weight: bold;
+}
+
+.header
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/banner320.png);
+    height: 7rem;
+    background-size: cover;
+    background-position: center;
+    background-position: 50% 80%;
+}
+
+@media (min-width: 568px)
+{
+    .header
+    {
+        background-image: url(../images/banner568.png);
+        height: 12rem;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .header
+    {
+        background-image: url(../images/banner768.png);
+        height: 15rem;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .header
+    {
+        background-image: url(../images/banner1024.png);
+    }
+}
+
+@media (min-width: 1280px)
+{
+    .header
+    {
+        background-image: url(../images/banner1280.png);
+        height: 20rem;
+    }
+}
+
+@media (min-width: 1366px)
+{
+    .header
+    {
+        background-image: url(../images/banner1366.png);
+    }
+}
+
+@media (min-width: 1680px)
+{
+    .header
+    {
+        background-image: url(../images/banner1680.png);
+        height: 25rem;
+    }
+}
+
+@media (min-width: 1920px)
+{
+    .header
+    {
+        background-image: url(../images/banner1.png);
+        height: 30rem;
+        background-position: 50% 80%;
+    }
+}
+
+.bannerImage
+{
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    max-height: 10rem;
+}
+
+.bannerImage img
+{
+    height: 100%;
+    width: auto;
+}
+
+.headerLogo
+{
+    position: absolute;
+}
+
+.headerNav
+{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+nav#siteMenu
+{
+    width: 100%;
+    display: none;
+    position: relative;
+}
+
+@media (min-width: 1024px)
+{
+    nav#siteMenu
+    {
+        display: block;
+    }
+}
+
+nav#siteMenu ul
+{
+    width: 100%;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+}
+
+nav#siteMenu ul li
+{
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (min-width: 1280px)
+{
+    nav#siteMenu ul li
+    {
+        padding: 1rem 2rem;
+    }
+}
+
+nav#siteMenu ul li:hover
+{
+    background-color: #FFFFE1;
+}
+
+
+#menuClick
+{
+    width: auto;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+@media (min-width: 1024px)
+{
+    #menuClick
+    {
+        display: none;
+    }
+}
+
+#siteMenuMobile, #siteMenuMobile:before, #siteMenuMobile:After
+{
+    position: absolute;
+    content: '';
+    width: 1.75rem;
+    height: 0.156rem;
+    background: #000;
+    border-radius: 1.25rem;
+    transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
+    margin-left: 0;
+    cursor: pointer;
+ }
+
+ #siteMenuMobile
+ {
+    right: calc(50% - 1.75rem/2);
+ }
+  
+#siteMenuMobile::before 
+{
+    top: -0.5rem;
+}
+  
+#siteMenuMobile::after 
+{
+    top: 0.5rem;
+}
+
+#siteMenuMobile.active
+{
+    background: transparent;
+}
+
+#siteMenuMobile.active::before, #siteMenuMobile.active::after 
+{
+    background: #000;
+    top: 0;
+}
+
+@media (min-width: 1024px)
+{
+    #siteMenuMobile.active::before, #siteMenuMobile.active::after 
+    {
+        background: #361e54;
+        top: 0;
+    }
+}
+
+#siteMenuMobile.active::before  
+{
+    transform: rotate(-225deg);
+}
+
+#siteMenuMobile.active::after  
+{
+    transform: rotate(225deg);
+}
+
+#mobileMenu
+{
+    display: block;
+    position: relative;
+    top:0.9rem;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
+#mobileMenu ul
+{
+    list-style-type: none;
+    display: block;
+    padding: 1rem;
+    margin: 0;
+}
+
+#mobileMenu ul li
+{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+#mobileMenu ul li a
+{
+    text-align: center;
+    width: 100%;
+}
+
+.footer
+{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1024px)
+{
+    .footer
+    {
+        width: 90%;
+    }
+}
+
+.footerLeft
+{
+    width: 100%;
+    order: 3;
+    text-align: center;
+}
+
+@media (min-width: 1024px)
+{
+    .footerLeft
+    {
+        width: 20%;
+        order: 1;
+        text-align: left;
+    }
+}
+
+.footerMid
+{
+    width: 100%;
+    order: 2;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 1024px)
+{
+    .footerMid
+    {
+        width: 60%;
+        margin-bottom: 0;
+    }
+}
+
+.footerRight
+{
+    width: 100%;
+    order: 1;
+}
+
+@media (min-width: 1024px)
+{
+    .footerRight
+    {
+        width: 20%;
+        order: 3;
+    }
+}
+
+.footerSocial, .footerSocial nav
+{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.footerSocial nav ul
+{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.footerLinks
+{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footerLinks li
+{
+    padding: 0 1rem;
+    font-weight: normal;
+}
+
+@media (min-width: 768px)
+{
+    .footerLinks li
+    {
+        padding: 0 3rem;
+    }
+}
+
+.footerLinks li:hover
+{
+    font-weight: bold;
+}
+
+.textContent
+{
+    width: 80%;
+    margin: 1rem auto;
+    text-align: left;
+}
+
+@media (min-width: 1024px)
+{
+    .textContent
+    {
+        width: 60%;
+        margin: 4rem auto;
+    }
+}
+
+.textContent h2
+{
+    text-align: center;;
+}
+
+.textContent a:hover
+{
+    color: #859CB7;
+    font-weight: bold;
+}
+
+#tblDates
+{
+    width: 100%;
+}
+
+#tblDates tr
+{
+    height: 3rem;
+}
+
+#datesDesktop
+{
+    display: none;
+}
+
+@media (min-width: 1024px)
+{
+    #datesDesktop
+    {
+        display: block;
+    }
+}
+
+#datesMobile
+{
+    display: block;
+}
+
+@media (min-width: 1024px)
+{
+    #datesMobile
+    {
+        display: none;
+    }
+}
+
+.datesLine
+{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid grey;
+}
+
+
+.toggleSection
+{
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: left;
+    margin: 3rem 0;
+}
+
+.toggleTitle
+{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-bottom: 1rem;
+    background-color: #859CB7;
+    color: #000;
+    padding: 0.3rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media(min-width: 1024px)
+{
+    .toggleTitle
+    {
+        padding: 0.5rem;
+    }
+}
+
+.toggleTitle h3
+{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    float: left;
+}
+
+@media(min-width: 1024px)
+{
+    .toggleTitle h3
+    {
+        font-size: 1.2rem;
+    }
+}
+
+.toggleContent
+{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.toggleTitle span
+{
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+ul.docsList
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.docsList li
+{
+    margin-bottom: 1rem;
+}
+
+
+#tblStats
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tblStats tr
+{
+    height: 3rem;
+}
+
+#tblStats tr th, #tblStats tr td
+{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.twoCols
+{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+@media(min-width: 768px)
+{
+    .twoCols
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 1024px)
+{
+    .twoCols
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.row
+{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px)
+{
+    .row
+    {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .row
+    {
+        margin-bottom: 0;
+    }
+}
+
+.twoCols-Left
+{
+    width: 100%;
+}
+
+.twoCols-Right
+{
+    width: 100%;
+    font-size: 1rem;
+
+}
+
+@media (min-width: 768px)
+{
+    .twoCols-Left
+    {
+        width: 24%;
+    }
+
+    .twoCols-Right
+    {
+        width: 74%;
+        font-size: 1rem;
+    }
+}
+
+
+.twoCols-Left img
+{
+    width: 100%;
+    height: auto;
+    max-height: 18rem;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2rem;
+}
+
+@media(min-width: 568px)
+{
+    .twoCols-Left img
+    {
+        max-height: 34rem;
+    }
+}
+
+@media(min-width: 768px)
+{
+    .twoCols-Left img
+    {
+        width: 90%;
+        height: auto;
+        margin-top: 0;
+    }
+}
+
+.twoCols-Left, .twoCols-Right
+{
+    text-align: left;
+}
+
+
+#contactForm, #contact-form
+{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#contactForm
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px)
+{
+    #contactForm
+    {
+        width: 100%;
+    }
+}
+
+#contactForm label
+{
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+@media (min-width: 568px)
+{
+    #contactForm label
+    {
+        font-size: 1.1rem;
+    }
+}
+
+#contactForm input
+{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+#contactForm textarea
+{
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2rem;
+    font: inherit;
+}
+
+#contactForm select
+{
+    width: 20%;
+    font-size: 1.1rem;
+    height: 2rem;
+}
+
+#contactForm button
+{
+    width: 100%;
+    height: 3rem;
+    background-color: #859CB7;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+@media(min-width: 1024px)
+{
+    #contactForm button
+    {
+        width: 25%;
+    }   
+}
+
+#contactForm button:active
+{
+    background-color: #fff;
+    color: #859CB7;
+}
