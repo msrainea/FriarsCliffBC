@@ -860,3 +860,10 @@ ul.docsList li
     background-color: #fff;
     color: #859CB7;
 }
+.past {
+    text-decoration: line-through;
+}
+
+.next {
+    font-weight: bold;
+}

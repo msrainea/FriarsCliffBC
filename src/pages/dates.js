@@ -22,21 +22,21 @@ class Dates extends React.Component {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr class="past">
                                 <td>Sunday</td>
                                 <td>16th January 2022</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/43yfQvg1M" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr>
+                            <tr class="past">
                                 <td>Sunday</td>
                                 <td>15th May 2022</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/4yeqyWlwb" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr>
+                            <tr class="next">
                                 <td>Sunday</td>
                                 <td>7th August 2022</td>
                                 <td>10.30am</td>
