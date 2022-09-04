@@ -43,14 +43,14 @@ class Dates extends React.Component {
                                 <td>12.30pm</td>
                                 <td>RESCHEDULED</td>
                             </tr>
-                            <tr class="next">
+                            <tr class="past">
                                 <td>Sunday</td>
                                 <td>4th September 2022</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/khqb0tAmX" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr>
+                            <tr class="next">
                                 <td>Sunday</td>
                                 <td>13th November 2022</td>
                                 <td>10.30am</td>
