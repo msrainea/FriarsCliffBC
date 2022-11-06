@@ -867,3 +867,7 @@ ul.docsList li
 .next {
     font-weight: bold;
 }
+
+.floatingchat-container, .floatingchat-container-mobi {
+    width: 275px !important;
+}
