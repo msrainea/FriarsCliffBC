@@ -36,14 +36,21 @@ class Dates extends React.Component {
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/3QRgRHWiZ" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr className="next">
+                            <tr className="past">
+                                <td>Sunday</td>
+                                <td>20th August 2023</td>
+                                <td>10.30am</td>
+                                <td>12.30pm</td>
+                                <td><a href="https://fb.me/e/3dFLnsEPN" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
+                            </tr>
+                            <tr className="past">
                                 <td>Sunday</td>
                                 <td>27th August 2023 (to be rescheduled)</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/3dFLnsEPN" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr>
+                            <tr className="next">
                                 <td>Sunday</td>
                                 <td>5th November 2023</td>
                                 <td>10.30am</td>
@@ -70,12 +77,16 @@ class Dates extends React.Component {
                             Sunday 14th May 2023, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/3QRgRHWiZ" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
-                        <div className="datesLine next">
+                        <div className="datesLine past">
+                            Sunday 20th August 2023, 10.30am - 12.30pm<br/>
+                            <a href="https://fb.me/e/3dFLnsEPN" target="_blank" rel="noopener noreferrer">Facebook event page</a>
+                        </div>
+                        <div className="datesLine past">
                             <strong>Note: this date is being rescheduled, please check back later</strong><br/>
                             Sunday 27th August 2023, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/3dFLnsEPN" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
-                        <div className="datesLine">
+                        <div className="datesLine next">
                             Sunday 5th November 2023, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/3RLhuWNVT" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
