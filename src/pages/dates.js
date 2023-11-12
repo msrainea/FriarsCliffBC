@@ -50,9 +50,16 @@ class Dates extends React.Component {
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/3dFLnsEPN" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr className="next">
+                            <tr className="past">
                                 <td>Sunday</td>
                                 <td>5th November 2023</td>
+                                <td>10.30am</td>
+                                <td>12.30pm</td>
+                                <td><a href="https://fb.me/e/3RLhuWNVT" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
+                            </tr>
+                            <tr className="next">
+                                <td>Sunday</td>
+                                <td>19th November 2023</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/3RLhuWNVT" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
@@ -86,8 +93,12 @@ class Dates extends React.Component {
                             Sunday 27th August 2023, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/3dFLnsEPN" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
-                        <div className="datesLine next">
+                        <div className="datesLine past">
                             Sunday 5th November 2023, 10.30am - 12.30pm<br/>
+                            <a href="https://fb.me/e/3RLhuWNVT" target="_blank" rel="noopener noreferrer">Facebook event page</a>
+                        </div>
+                        <div className="datesLine next">
+                            Sunday 19th November 2023, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/3RLhuWNVT" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
                         <div className="datesLine">
