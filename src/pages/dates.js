@@ -57,14 +57,14 @@ class Dates extends React.Component {
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/3RLhuWNVT" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr className="next">
+                            <tr className="past">
                                 <td>Sunday</td>
                                 <td>19th November 2023</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/1a0UzARF5" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr>
+                            <tr className="next">
                                 <td>Sunday</td>
                                 <td>4th February 2024</td>
                                 <td>10.30am</td>
@@ -97,11 +97,11 @@ class Dates extends React.Component {
                             Sunday 5th November 2023, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/3RLhuWNVT" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
-                        <div className="datesLine next">
+                        <div className="datesLine past">
                             Sunday 19th November 2023, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/1a0UzARF5" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
-                        <div className="datesLine">
+                        <div className="datesLine next">
                             Sunday 4th February 2024, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/29MTHNUfy" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
