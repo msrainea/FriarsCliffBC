@@ -68,7 +68,6 @@ class Dates extends React.Component {
                             <a href="https://fb.me/e/44LhWD0vQ" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
                         <div className="datesLine">
-                            <strong>Note: this date is being rescheduled, please check back later</strong><br/>
                             Sunday 3rd November 2024, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/3nQtKBs3X" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
