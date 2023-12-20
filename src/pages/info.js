@@ -1,5 +1,5 @@
 import React from 'react';
-import Risk from '../documents/riskassessment.pdf';
+import Risk from '../documents/riskassessment2024.pdf';
 import Letter from '../documents/letterofagreement.pdf';
 import Letter23 from '../documents/letterofagreement2023.pdf';
 import Liability from '../documents/insurance.pdf';
