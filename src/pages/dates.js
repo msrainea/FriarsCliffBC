@@ -6,7 +6,7 @@ class Dates extends React.Component {
             <div className = "pageContent">
                 <div className="textContent">
                     <h2>Event Dates</h2>
-                    <p>The following dates have been scheduled for 2023.</p>
+                    <p>The following dates have been scheduled for 2024.</p>
                     <p>Please be aware that all dates and times are subject to change. Please check before attending an event. Updates will be sent via email to the mailing list and posted on social media.</p>
                     <br/>
                 </div>
@@ -24,7 +24,7 @@ class Dates extends React.Component {
                         <tbody>
                             <tr className="next">
                                 <td>Sunday</td>
-                                <td>4th February 2023</td>
+                                <td>4th February 2024</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/3ctrUfIeV" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
