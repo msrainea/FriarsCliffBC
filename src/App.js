@@ -1,5 +1,5 @@
-import React from 'react';
-import {Routes, Route} from 'react-router-dom';
+import React, {useEffect} from 'react';
+import {Routes, Route, useLocation} from 'react-router-dom';
 
 import './styles/styles.css';
 import Header from './constants/header';
@@ -15,6 +15,17 @@ import Privacy from './pages/privacy';
 import Cookies from './pages/cookies';
 
 function App() {
+
+const location = useLocation();
+
+  useEffect(() => {
+    if(location.pathname === "/team") {
+      document.querySelector('[id^="kofi-widget-overlay-"]').style.display = "block";
+    } else {
+      document.querySelector('[id^="kofi-widget-overlay-"]').style.display = "none";
+    }
+  }, [location]);
+
   return (
     <div className="App">
       <Header />
