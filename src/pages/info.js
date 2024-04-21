@@ -1,7 +1,7 @@
 import React from 'react';
 import Risk from '../documents/riskassessment2024.pdf';
 import Letter24 from '../documents/letterofagreement2024.pdf';
-import Liability from '../documents/insurance.pdf';
+import Liability from '../documents/insurance25.pdf';
 
 class Info extends React.Component {
     constructor(){
