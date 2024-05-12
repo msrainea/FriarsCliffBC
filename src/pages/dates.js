@@ -29,7 +29,7 @@ class Dates extends React.Component {
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/3ctrUfIeV" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr className="next">
+                            <tr className="past">
                                 <td>Sunday</td>
                                 <td>12th May 2024</td>
                                 <td>10.30am</td>
@@ -37,7 +37,7 @@ class Dates extends React.Component {
                                 <td><a href="https://fb.me/e/16TWRHZr3" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
                             <tr>
-                                <td>Sunday</td>
+                                <td className="next">Sunday</td>
                                 <td>18th August 2024</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
@@ -59,11 +59,11 @@ class Dates extends React.Component {
                             Sunday 4th February 2024, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/3ctrUfIeV" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
-                        <div className="datesLine next">
+                        <div className="datesLine past">
                             Sunday 12th May 2024, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/16TWRHZr3" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
-                        <div className="datesLine">
+                        <div className="datesLine next">
                             Sunday 18th August 2024, 10.30am - 12.30pm<br/>
                             <a href="https://fb.me/e/44LhWD0vQ" target="_blank" rel="noopener noreferrer">Facebook event page</a>
                         </div>
