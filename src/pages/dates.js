@@ -36,9 +36,16 @@ class Dates extends React.Component {
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/16TWRHZr3" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
                             </tr>
-                            <tr>
-                                <td className="next">Sunday</td>
+                            <tr className="next">
+                                <td>Sunday</td>
                                 <td>18th August 2024</td>
+                                <td>10.30am</td>
+                                <td>12.30pm</td>
+                                <td><a href="https://fb.me/e/44LhWD0vQ" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>3rd November 2024</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                                 <td><a href="https://fb.me/e/3nQtKBs3X" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
