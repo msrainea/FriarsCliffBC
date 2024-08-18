@@ -79,16 +79,6 @@ class Info extends React.Component {
                         }
                     </div>
                     <div className="toggleSection">
-                        <div className="toggleTitle" onClick={() => this.hideComponent("section1")}><h3>What should I bring?</h3>{!section1 && <span className="toggleDown">+</span>}{section1 && <span className="toggleUp">-</span>}</div>
-                        {section1 && 
-                            <div className="toggleContent">
-                                Just yourself usually! We will provide litter pickers, hi-vis vests, bags, hoops and gloves. If you have your own equipment you are welcome to bring it, you don't have to borrow ours.
-                                <br/><br/>
-                                Please make sure you are dressed appropriately and wearing sensible footwear. Remember the sun cream (or rain coat!) as needed.
-                            </div>
-                        }
-                    </div>
-                    <div className="toggleSection">
                         <div className="toggleTitle" onClick={() => this.hideComponent("section2")}><h3>Can I bring my dog?</h3>{!section2 && <span className="toggleDown">+</span>}{section2 && <span className="toggleUp">-</span>}</div>
                         {section2 && 
                             <div className="toggleContent">
@@ -152,7 +142,7 @@ class Info extends React.Component {
                                 <br/><br/>
                                 We have a qualified first aider on site at all times and a first aid kit available so please ask for help if you need it.
                                 <br/><br/>
-                                During all events, we will be in a fixed place at Groyne H5 and not cleaning along with you. This is so you can always find us for help and advice if required and it means we have visibility of all attendees at all times.
+                                During all events, we will be in a fixed place at the end of the wave wall and not cleaning along with you. This is so you can always find us for help and advice if required and it means we have visibility of all attendees at all times.
                                 <br/><br/>
                             </div>
                         }           
