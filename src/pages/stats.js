@@ -19,7 +19,13 @@ class Stats extends React.Component {
                             </tr>
                         </thead>
                         <tbody>
-                        <tr>
+                            <tr>
+                                <td>18/08/2024</td>
+                                <td>25</td>
+                                <td>25</td>
+                                <td>24.96kg</td>
+                            </tr>
+                            <tr>
                                 <td>12/05/2024</td>
                                 <td>25</td>
                                 <td>25</td>
