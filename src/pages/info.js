@@ -2,6 +2,7 @@ import React from 'react';
 import Risk from '../documents/riskassessment2024.pdf';
 import Letter24 from '../documents/letterofagreement2024.pdf';
 import Liability from '../documents/insurance25.pdf';
+import LetterX24 from '../documents/letterofagreement-extra.pdf';
 
 class Info extends React.Component {
     constructor(){
@@ -17,6 +18,7 @@ class Info extends React.Component {
             section8: false,
             section9: false,
             section10: false,
+            section11: false,
         };
         this.hideComponent = this.hideComponent.bind(this);
     }
@@ -54,13 +56,16 @@ class Info extends React.Component {
             case "section10":
                 this.setState({section10: !this.state.section10});
                 break;
+            case "section11":
+                this.setState({section11: !this.state.section11});
+                break;
             default: return;
         }
     }
 
 
     render(){
-        const {section1, section2, section3, section4, section5, section6, section7, section8, section9, section10} = this.state;
+        const {section1, section2, section3, section4, section5, section6, section7, section8, section9, section10, section11} = this.state;
         return (
             <div className = "pageContent">
                 <div className='textContent'>
@@ -166,12 +171,21 @@ class Info extends React.Component {
                         }
                     </div>
                     <div className="toggleSection">
-                        <div className="toggleTitle" onClick={() => this.hideComponent("section10")}><h3>Documentation</h3>{!section10 && <span className="toggleDown">+</span>}{section10 && <span className="toggleUp">-</span>}</div>
+                        <div className="toggleTitle" onClick={() => this.hideComponent("section10")}><h3>Event Safety</h3>{!section10 && <span className="toggleDown">+</span>}{section10 && <span className="toggleUp">-</span>}</div>
                         {section10 && 
+                            <div className="toggleContent">
+                                Dorset Police event safety advice - <a href="https://www.dorset.police.uk/eventsafety" target="_blank" rel="noopener noreferrer">https://www.dorset.police.uk/eventsafety</a>
+                            </div>
+                        }
+                    </div>
+                    <div className="toggleSection">
+                        <div className="toggleTitle" onClick={() => this.hideComponent("section11")}><h3>Documentation</h3>{!section11 && <span className="toggleDown">+</span>}{section11 && <span className="toggleUp">-</span>}</div>
+                        {section11 && 
                             <div className="toggleContent">
                                 <ul className="docsList">
                                     <li><a href={Risk} target="_blank" rel="noopener noreferrer" className="clearLink">View our Risk Assessment</a></li>
                                     <li><a href={Letter24} target="_blank" rel="noopener noreferrer" className="clearLink">Letter of Agreement 23/24</a> - this is a document we sign for BCP Council to show that we have permission to be on the beach for these events.</li>
+                                    <li><a href={LetterX24} target="_blank" rel="noopener noreferrer" className="clearLink">Letter of Agreement 17/11/24</a> - this is a document we sign for BCP Council to show that we have permission to be on the beach for these events.</li>
                                     <li><a href={Liability} target="_blank" rel="noopener noreferrer" className="clearLink">Public Liability Insurance</a> - provided by Litter Free Dorset</li>
                                 </ul>
                             </div>
