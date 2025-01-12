@@ -6,7 +6,7 @@ class Dates extends React.Component {
             <div className = "pageContent">
                 <div className="textContent">
                     <h2>Event Dates</h2>
-                    <p>The following dates have been scheduled for 2024.</p>
+                    <p>The following dates have been scheduled for 2025.</p>
                     <p>Please be aware that all dates and times are subject to change. Please check before attending an event. Updates will be sent via email to the mailing list and posted on social media.</p>
                     <br/>
                 </div>
