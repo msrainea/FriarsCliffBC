@@ -18,80 +18,58 @@ class Dates extends React.Component {
                                 <th>Date</th>
                                 <th>Start Time</th>
                                 <th>End Time</th>
-                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className="past">
-                                <td>Sunday</td>
-                                <td>4th February 2024</td>
-                                <td>10.30am</td>
-                                <td>12.30pm</td>
-                                <td><a href="https://fb.me/e/3ctrUfIeV" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
-                            </tr>
-                            <tr className="past">
-                                <td>Sunday</td>
-                                <td>12th May 2024</td>
-                                <td>10.30am</td>
-                                <td>12.30pm</td>
-                                <td><a href="https://fb.me/e/16TWRHZr3" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
-                            </tr>
-                            <tr className="past">
-                                <td>Sunday</td>
-                                <td>18th August 2024</td>
-                                <td>10.30am</td>
-                                <td>12.30pm</td>
-                                <td><a href="https://fb.me/e/44LhWD0vQ" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
-                            </tr>
-                            <tr className="past">
-                                <td>CANCELLED Sunday</td>
-                                <td>3rd November 2024</td>
-                                <td>10.30am</td>
-                                <td>12.30pm</td>
-                                <td><a href="https://fb.me/e/3nQtKBs3X" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
-                            </tr>
-                            <tr className="past">
-                                <td>Sunday</td>
-                                <td>17th November 2024</td>
-                                <td>10.30am</td>
-                                <td>12.30pm</td>
-                                <td><a href="https://fb.me/e/3nQtKBs3X" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
-                            </tr>
                             <tr className="next">
                                 <td>Sunday</td>
                                 <td>16th February 2025</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
-                                <td><a href="https://fb.me/e/6lB2WgdkN" target="_blank" rel="noopener noreferrer">Facebook event page</a></td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>22nd June 2025</td>
+                                <td>10.30am</td>
+                                <td>12.30pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>21st September 2025</td>
+                                <td>10.30am</td>
+                                <td>12.30pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>23rd November 2025</td>
+                                <td>10.30am</td>
+                                <td>12.30pm</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>15th February 2026</td>
+                                <td>10.30am</td>
+                                <td>12.30pm</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div id="datesMobile">
                     <div className="textContent">
-                        <div className="datesLine past">
-                            Sunday 4th February 2024, 10.30am - 12.30pm<br/>
-                            <a href="https://fb.me/e/3ctrUfIeV" target="_blank" rel="noopener noreferrer">Facebook event page</a>
-                        </div>
-                        <div className="datesLine past">
-                            Sunday 12th May 2024, 10.30am - 12.30pm<br/>
-                            <a href="https://fb.me/e/16TWRHZr3" target="_blank" rel="noopener noreferrer">Facebook event page</a>
-                        </div>
-                        <div className="datesLine past">
-                            Sunday 18th August 2024, 10.30am - 12.30pm<br/>
-                            <a href="https://fb.me/e/44LhWD0vQ" target="_blank" rel="noopener noreferrer">Facebook event page</a>
-                        </div>
-                        <div className="datesLine past">
-                            CANCELLED Sunday 3rd November 2024, 10.30am - 12.30pm<br/>
-                            <a href="https://fb.me/e/3nQtKBs3X" target="_blank" rel="noopener noreferrer">Facebook event page</a>
-                        </div>
-                        <div className="datesLine past">
-                            Sunday 17th November 2024, 10.30am - 12.30pm<br/>
-                            <a href="https://fb.me/e/3nQtKBs3X" target="_blank" rel="noopener noreferrer">Facebook event page</a>
-                        </div>
                         <div className="datesLine next">
                             Sunday 16th February 2025, 10.30am - 12.30pm<br/>
-                            <a href="https://fb.me/e/6lB2WgdkN" target="_blank" rel="noopener noreferrer">Facebook event page</a>
+                        </div>
+                        <div className="datesLine">
+                            Sunday 22nd June 2025, 10.30am - 12.30pm<br/>
+                        </div>
+                        <div className="datesLine">
+                            Sunday 21st September 2025, 10.30am - 12.30pm<br/>
+                        </div>
+                        <div className="datesLine">
+                            Sunday 23rd November 2025, 10.30am - 12.30pm<br/>
+                        </div>
+                        <div className="datesLine">
+                            Sunday 15th February 2026, 10.30am - 12.30pm<br/>
                         </div>
                     </div>
                 </div>
