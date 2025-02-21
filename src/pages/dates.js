@@ -21,13 +21,13 @@ class Dates extends React.Component {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className="next">
+                            <tr className="past">
                                 <td>Sunday</td>
                                 <td>16th February 2025</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                             </tr>
-                            <tr>
+                            <tr className="next"> 
                                 <td>Sunday</td>
                                 <td>22nd June 2025</td>
                                 <td>10.30am</td>
@@ -56,10 +56,10 @@ class Dates extends React.Component {
                 </div>
                 <div id="datesMobile">
                     <div className="textContent">
-                        <div className="datesLine next">
+                        <div className="datesLine past">
                             Sunday 16th February 2025, 10.30am - 12.30pm<br/>
                         </div>
-                        <div className="datesLine">
+                        <div className="datesLine next">
                             Sunday 22nd June 2025, 10.30am - 12.30pm<br/>
                         </div>
                         <div className="datesLine">
