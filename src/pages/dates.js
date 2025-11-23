@@ -39,13 +39,13 @@ class Dates extends React.Component {
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                             </tr>
-                            <tr lassName="past">
+                            <tr className="past">
                                 <td>Sunday</td>
                                 <td>23rd November 2025</td>
                                 <td>10.30am</td>
                                 <td>12.30pm</td>
                             </tr>
-                            <tr lassName="next">
+                            <tr className="next">
                                 <td>Sunday</td>
                                 <td>15th February 2026</td>
                                 <td>10.30am</td>
