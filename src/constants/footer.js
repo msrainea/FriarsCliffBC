@@ -9,7 +9,7 @@ class Footer extends Component {
     return (
         <footer>
           <div className="footer">
-            <div className="footerLeft">&copy; <a className="footerLink" href="https://www.ameliaraine.me.uk" target="_blank" rel="noopener noreferrer">msrainea</a> 2022</div>
+            <div className="footerLeft">&copy; <a className="footerLink" href="https://www.ameliaraine.me.uk" target="_blank" rel="noopener noreferrer">msrainea</a> 2026</div>
             <div className="footerMid">
               <ul className="footerLinks" aria-label="Quick links">
                 <li><Link to='/privacy'>Privacy Policy</Link></li>
