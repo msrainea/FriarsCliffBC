@@ -1,8 +1,7 @@
 import React from 'react';
-import Risk from '../documents/riskassessment2024.pdf';
-import Letter24 from '../documents/letterofagreement2024.pdf';
-import Liability from '../documents/insurance25.pdf';
-import LetterX24 from '../documents/letterofagreement-extra.pdf';
+import Risk from '../documents/riskassessment26.pdf';
+import Letter from '../documents/letterofagreement2026.pdf';
+import Liability from '../documents/publicliability25_26.pdf';
 
 class Info extends React.Component {
     constructor(){
@@ -184,8 +183,7 @@ class Info extends React.Component {
                             <div className="toggleContent">
                                 <ul className="docsList">
                                     <li><a href={Risk} target="_blank" rel="noopener noreferrer" className="clearLink">View our Risk Assessment</a></li>
-                                    <li><a href={Letter24} target="_blank" rel="noopener noreferrer" className="clearLink">Letter of Agreement 23/24</a> - this is a document we sign for BCP Council to show that we have permission to be on the beach for these events.</li>
-                                    <li><a href={LetterX24} target="_blank" rel="noopener noreferrer" className="clearLink">Letter of Agreement 17/11/24</a> - this is a document we sign for BCP Council to show that we have permission to be on the beach for these events.</li>
+                                    <li><a href={Letter} target="_blank" rel="noopener noreferrer" className="clearLink">Letter of Agreement </a> - this is a document we sign for BCP Council to show that we have permission to be on the beach for these events.</li>
                                     <li><a href={Liability} target="_blank" rel="noopener noreferrer" className="clearLink">Public Liability Insurance</a> - provided by Litter Free Dorset</li>
                                 </ul>
                             </div>
