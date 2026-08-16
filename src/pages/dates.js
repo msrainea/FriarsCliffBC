@@ -33,13 +33,13 @@ class Dates extends React.Component {
                                 <td>10.30am</td>
                                 <td>12.00pm</td>
                             </tr>
-                            <tr className="next">
+                            <tr className="past">
                                 <td>Sunday</td>
                                 <td>16th August 2026</td>
                                 <td>10.30am</td>
                                 <td>12.00pm</td>
                             </tr>
-                            <tr>
+                            <tr className="next">
                                 <td>Sunday</td>
                                 <td>1st November 2026</td>
                                 <td>10.30am</td>
@@ -62,10 +62,10 @@ class Dates extends React.Component {
                         <div className="datesLine past">
                             Sunday 10th May 2026, 10.30am - 12.00pm<br/>
                         </div>
-                        <div className="datesLine next">
+                        <div className="datesLine past">
                             Sunday 16th August 2026, 10.30am - 12.00pm<br/>
                         </div>
-                        <div className="datesLine">
+                        <div className="datesLine next">
                             Sunday 1st November 2026, 10.30am - 12.00pm<br/>
                         </div>
                         <div className="datesLine">
